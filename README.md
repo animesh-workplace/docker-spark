@@ -1,6 +1,6 @@
 # Docker Spark
 
-This creates a docker of Apache Spark v2.3.4
+This creates a docker of Apache Spark v2.3.4 with the base image of Apache Hadoop 2.8.5 and openjdk8 can be found in this [repository](https://github.com/animesh-workplace/docker-hadoop)
 
 Use the following Docker compose file to create master and worker nodes:
 
@@ -26,3 +26,7 @@ services:
     links:
       - master
 ```
+
+- Create a file and copy the above code
+- Name the file ```docker-compose.yaml```
+- Run the command ```docker-compose up```
