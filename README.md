@@ -4,7 +4,7 @@ This creates a docker of Apache Spark v2.3.4
 
 Use the following Docker compose file to create master and worker nodes:
 
-```docker-compose
+```bash
 version: "2"
 
 services:
