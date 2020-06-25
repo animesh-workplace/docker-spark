@@ -2,7 +2,7 @@ FROM animeshworkplace/docker-hadoop
 MAINTAINER Animesh Kumar Singh
 
 # Version
-ENV SPARK_VERSION=2.2.1
+ENV SPARK_VERSION=2.3.4
 
 # Set home
 ENV SPARK_HOME=/usr/local/spark-$SPARK_VERSION
